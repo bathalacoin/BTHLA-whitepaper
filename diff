@@ -1,8 +1,143 @@
-index.md
----
-layout: default
----
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bathala Coin (BTHLA) – Whitepaper</title>
 
-{% raw %}
-{% include_relative README.md %}
-{% endraw %}
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.08);
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ddd;
+            margin: 30px 0;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .section-title {
+            margin-top: 40px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Bathala Coin (BTHLA)</h1>
+    <h2>The Whitepaper</h2>
+    <p class="center"><strong>Version 1.0</strong></p>
+
+    <hr>
+
+    <h2 class="section-title">1. Introduction</h2>
+    <p>
+        Bathala Coin (BTHLA) is a community-driven digital asset inspired by the 
+        rich mythology and cultural identity of the Philippines. 
+        Named after Bathala, the supreme creator deity, BTHLA represents 
+        empowerment, unity, and integrity across decentralized communities.
+    </p>
+
+    <h2 class="section-title">2. Mission & Vision</h2>
+    <p>
+        Our mission is to build a Web3 ecosystem that celebrates Filipino values 
+        while delivering real utility for global crypto users. 
+        BTHLA aims to bridge cultural storytelling with modern blockchain technology.
+    </p>
+
+    <h3>Vision</h3>
+    <ul>
+        <li>Promote transparency and trust within crypto communities</li>
+        <li>Introduce culturally infused blockchain projects</li>
+        <li>Build a sustainable and engaged community around BTHLA</li>
+    </ul>
+
+    <h2 class="section-title">3. Tokenomics</h2>
+    <p><strong>Token Name:</strong> Bathala Coin</p>
+    <p><strong>Ticker:</strong> BTHLA</p>
+    <p><strong>Supply:</strong> 1,000,000,000 (1B)</p>
+
+    <h3>Distribution</h3>
+    <ul>
+        <li>40% – Community & Airdrops</li>
+        <li>25% – Liquidity Pool</li>
+        <li>20% – Development & Partnerships</li>
+        <li>10% – Marketing & Growth</li>
+        <li>5% – Reserves</li>
+    </ul>
+
+    <h2 class="section-title">4. Roadmap</h2>
+    <h3>Phase 1 – Launch</h3>
+    <ul>
+        <li>Whitepaper release</li>
+        <li>Initial branding and website launch</li>
+        <li>Smart contract deployment</li>
+    </ul>
+
+    <h3>Phase 2 – Community Growth</h3>
+    <ul>
+        <li>Airdrops & giveaways</li>
+        <li>Discord & Telegram expansion</li>
+        <li>Listing on tracking platforms</li>
+    </ul>
+
+    <h3>Phase 3 – Utility Development</h3>
+    <ul>
+        <li>BTHLA marketplace</li>
+        <li>Bathala NFT collection</li>
+        <li>Staking rewards system</li>
+    </ul>
+
+    <h2 class="section-title">5. Disclaimer</h2>
+    <p>
+        This document is for informational purposes only and does not constitute 
+        financial or investment advice. Cryptocurrency investments carry risk.
+    </p>
+
+    <div class="footer">
+        © 2025 Bathala Coin — All Rights Reserved.
+    </div>
+</div>
+
+</body>
+</html>
